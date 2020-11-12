@@ -167,7 +167,7 @@ protected:
 //! This struct maps a status value to a description of that status.
 struct StatusMessageTableEntry
 {
-    int32_t status;            //!< Status code value.
+    uint32_t status;            //!< Status code value.
     const std::string message; //!< Description of the status.
 };
 
